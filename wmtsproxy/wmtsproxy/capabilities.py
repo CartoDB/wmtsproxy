@@ -72,6 +72,8 @@ def wmts_cap_dict(cap):
             'title': layer['title'],
             'matrix_sets': [matrix_set['id'] for matrix_set in layer['matrix_sets']],
             'llbbox': layer['bbox'],
+            'formats': layer['formats'],
+            'styles': layer['styles']
         })
         dimension = wmts_layer_dimensions(layer)
         if dimension:
