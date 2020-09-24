@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages
 
 setup(name='wmtsproxy',
-      version='0.1.2',
+      version='0.2.0',
       description='WMTSProxy makes WMS/WMTS layers available as WMTS',
       author='Omniscale GmbH & Co. KG',
       author_email='support@omniscale.de',
