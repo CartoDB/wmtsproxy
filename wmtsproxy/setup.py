@@ -12,6 +12,6 @@ setup(name='wmtsproxy',
       install_requires=[
         "PyYAML",
         "requests",
-        "mapproxy>=1.7.0",
+        "mapproxy==1.7.0",
       ]
 )
