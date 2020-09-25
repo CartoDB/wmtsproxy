@@ -1,2 +1,4 @@
 *.pyc
 *.egg-info
+wmtsproxy/build
+wmtsproxy/dist

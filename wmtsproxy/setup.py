@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages
 
 setup(name='wmtsproxy',
-      version='0.1.2',
+      version='0.2.0',
       description='WMTSProxy makes WMS/WMTS layers available as WMTS',
       author='Omniscale GmbH & Co. KG',
       author_email='support@omniscale.de',
@@ -12,6 +12,6 @@ setup(name='wmtsproxy',
       install_requires=[
         "PyYAML",
         "requests",
-        "mapproxy>=1.7.0",
+        "mapproxy==1.7.0",
       ]
 )
