@@ -10,8 +10,8 @@ setup(name='wmtsproxy',
       packages=find_packages(),
       license='Apache 2',
       install_requires=[
-          "PyYAML==3.11",
+          "PyYAML",
           "requests",
           "mapproxy==1.7.0",
       ]
-      )
+)
